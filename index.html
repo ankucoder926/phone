@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Responsive Navbar</title>
+
+  <!-- Bootstrap CSS AND SCRIPT -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Font Awesome for Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <style>
+    .navbar-toggler {
+      border: none;
+    }
+
+  </style>
+</head>
+<body  data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+ 
+
+<!-- NAV START -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <div class="container">
+
+     <a class="navbar-brand" href="#">
+        <img src="logo1.0.png" alt="Logo" style="width: 70px;">
+      </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#h">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#b">CONTACT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#c">SERVICES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">ABOUT US</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">CATEGORIES</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">SMART PHONE</a></li>
+            <li><a class="dropdown-item" href="#">TABLET</a></li>
+            <li><a class="dropdown-item" href="#">SMART WATCH</a></li>
+            <li><a class="dropdown-item" href="#">LAPTOP</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex">
+      <div class="input-group">
+        <span class="input-group-text">
+          <i class="fa fa-search"></i>
+        </span>
+        <input type="text" class="form-control" placeholder="SEARCH">
+      </div>
+    </form>
+    </div>
+  </div>
+</nav>
+ <!-- NAV ENDS -->
+  <!-- carousel start  -->
+  <div class="container-fluid" id="h">
+    <div class="carousel slide " id="demo" data-bs-slide="carousel">
+      <div class="carousel-indicators">
+        <button data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button data-bs-target="#demo" data-bs-slide-to="2"></button>
+        <button data-bs-target="#demo" data-bs-slide-to="3"></button>
+      </div>
+
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="apple.jpg" alt="" class="d-block w-100">
+        </div>
+
+        <div class="carousel-item ">
+          <img src="Galaxy-S24.jpg" alt="" class="d-block w-100">
+        </div>
+
+        <div class="carousel-item ">
+          <img src="moto.jpg" alt="" class="d-block w-100">
+        </div>
+
+        <div class="carousel-item ">
+          <img src="realme-11-pro-plus.jpg" alt="" class="d-block w-100">
+        </div>
+
+      </div>
+      <!-- img div -->
+
+      <button class="carousel-control-prev" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+
+      <button class="carousel-control-next" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+    <!-- carousel div -->
+  </div>
+  <!-- container div -->
+
+  <div class="container" id="b">
+    <div class="row">
+
+      <div class="col-lg-6" data-aos="fade-right">
+
+        <div class="card h-100 mt-5">
+          <div>
+            <img src="iPhone-16-Pro-Max.jpg" alt="" class="card-img-top">
+          </div>
+
+          <div class="card-body">
+            <h4> <a
+                href="https://www.apple.com/in/shop/buy-iphone/iphone-16-pro/6.9%22-display-256gb-desert-titanium?afid=p238%7CsOnLWbkDp-dc_mtid_187079nc38483_pcrid_713474608714_pgrid_164681220222_pntwk_g_pchan_online_pexid__ptid_pla-2415753354647_&cid=aos-IN-kwgo-pla-iphone--slid---product-MYWX3HN%2FA-IN">New
+                Apple iPhone 16 Pro Max 256GB Desert Titanium(2024)</a></h4>
+            <h3>₹144900.00</h3>
+            <h5 class="text-secondary">Apple <br> Free Delivery <br><br> From ₹11658.00/mo. with instant cashback and No
+              Cost EMI</h5>
+
+          </div>
+
+          <div class="card-footer d-flex justify-content-around">
+
+            <button class="btn btn-outline-primary w-100"><span><i class="fa fa-shopping-cart"></i></span> Add to
+              cart</button>
+
+            <a type="button" class="btn btn-outline-primary w-100" href="buyform.html">
+              <span><i class="fa fa-shopping-bag "></i></span>
+              Buy Now</a>
+
+          </div>
+
+        </div>
+        <!-- card apple-->
+      </div>
+      <!-- col -->
+
+      <div class="col-lg-6" data-aos="fade-left">
+
+        <div class="card h-100 mt-5" >
+          <div>
+            <img src="Galaxy-S24.jpg" alt="" class="card-img-top">
+          </div>
+
+          <div class="card-body">
+            <h4> <a
+                href="https://www.samsung.com/in/smartphones/galaxy-s24/buy/?modelCode=SM-S921BZYQ&cid=in_pd_ppc_google_im-mobile-smartphones-s24-dtc_sales_samsung-s24-all-2024_eshop-pmax-pla_18Jan2024-na_1ur-503209l-2024-eshop-bau-performancemax-cpc_pfm--21572567748------x--SM-S921BZYQ&gad_source=1&gclid=Cj0KCQiAoae5BhCNARIsADVLzZfpDkX0h3yvJrJQ5_Me7pIPoMM2RumkMjT7RZTTezqq4SztyuUJZjYaAikaEALw_wcB">
+                Samsung Galaxy S24 Ultra 5G AI Smartphone (Titanium Gray, 12GB, 512GB Storage)</a></h4>
+            <h3>₹1,31,999 <span class="badge bg-danger">Trending </span></h3>
+            <h5 class="text-secondary">Samsung <br> Free Delivery <br><br> Inclusive of all taxes
+              EMI starts at ₹6,400. No Cost EMI available</h5>
+
+          </div>
+
+          <div class="card-footer d-flex justify-content-around">
+
+            <button class="btn btn-outline-primary w-100"><span><i class="fa fa-shopping-cart"></i></span> Add to
+              cart</button>
+
+            <button class="btn btn-outline-primary w-100"> <span><i class="fa fa-shopping-bag "></i></span> Buy Now
+            </button>
+
+
+          </div>
+
+        </div>
+        <!-- card -->
+      </div>
+      <!-- col div -->
+
+      <div class="col-lg-6 mt-5"  data-aos="zoom-in-right">
+
+        <div class="card h-100 mt-5">
+          <div>
+            <img src="moto.jpg" alt="" class="card-img-top">
+          </div>
+
+          <div class="card-body">
+            <h4> <a href="https://www.motorola.com/we/smartphones-motorola-edge-50-pro/p?skuId=633">
+                Motorola Edge 50 Pro 5G with 125W Charger (Luxe Lavender, 256 GB) (12 GB RAM)</a></h4>
+            <h3>₹29,999 <s class="text-secondary">₹41,999</s> <span class="badge bg-success">28% off </span></h3>
+            <h5 class="text-secondary">Motorola <br> Free Delivery <br><br> No cost EMI starting from ₹5,000/month</h5>
+
+          </div>
+
+          <div class="card-footer d-flex justify-content-around" >
+
+            <button class="btn btn-outline-primary w-100"><span><i class="fa fa-shopping-cart"></i></span> Add to
+              cart</button>
+
+            <button class="btn btn-outline-primary w-100"> <span><i class="fa fa-shopping-bag "></i></span> Buy Now
+            </button>
+
+
+          </div>
+
+
+
+        </div>
+        <!-- card -->
+      </div>
+      <!-- col div -->
+
+      <div class="col-lg-6 mt-5" id="c">
+
+        <div class="card h-100 mt-5"  data-aos="zoom-in-left">
+          <div>
+            <img src="realme-11-pro-plus.jpg" alt="" class="card-img-top">
+          </div>
+
+          <div class="card-body">
+            <h4> <a href="https://www.realme.com/in/realme-11-pro">
+                Realme 11 Pro 5G (Sunrise Beige, 8GB RAM, 128GB Storage) Refurbished</a></h4>
+            <h3> ₹24,890 <s class="text-secondary">₹25,999.00</s> <span class="badge bg-success"> 4% off </span></h3>
+            <h5 class="text-secondary">Realme<br> Free Delivery <br><br> EMI starting from ₹876/month</h5>
+
+          </div>
+
+          <div class="card-footer d-flex justify-content-around">
+
+            <button class="btn btn-outline-primary w-100"><span><i class="fa fa-shopping-cart"></i></span> Add to
+              cart</button>
+
+            <button class="btn btn-outline-primary w-100"> <span><i class="fa fa-shopping-bag "></i></span> Buy Now
+            </button>
+
+
+          </div>
+
+
+        </div>
+        <!-- card -->
+      </div>
+      <!-- col div -->
+
+
+    </div>
+    <!-- row div -->
+  </div>
+  <!-- container div -->
+</body>
+
+</html>
+
+<script>
+  AOS.init({
+    duration: 1000,
+    once: false
+  })
+</script>
